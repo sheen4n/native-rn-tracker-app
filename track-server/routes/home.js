@@ -1,8 +1,8 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const requireAuth = require("../middlewares/requireAuth");
+const auth = require('../middlewares/auth');
 
-router.get("/", requireAuth, (req, res) => {
+router.get('/', auth, (req, res) => {
   // res.send("Hello");
   res.send(`Your email is ${req.user.email}`);
 });

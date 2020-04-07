@@ -1,3 +1,4 @@
+config/secret.txt
 /node_modules
 node_modules/**/*
 .expo/*

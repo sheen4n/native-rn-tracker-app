@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "PrivateKey",
+  "db": "mongodb://localhost/tracker",
+  "port": "3900",
+  "requiresAuth": true
+}

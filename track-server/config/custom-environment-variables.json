@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "tracker_jwtPrivateKey",
+  "db": "tracker_db"
+}
